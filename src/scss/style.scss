@@ -1,0 +1,28 @@
+@import "fonts.scss";
+@import "nullstyle.scss";
+@import "modules/header.scss";
+@import "modules/home.scss";
+@import "modules/relevance.scss";
+@import "modules/outsourcing.scss";
+@import "modules/advantages.scss";
+@import "modules/rates.scss";
+@import "modules/feedback.scss";
+@import "modules/services.scss";
+@import "modules/cooperation.scss";
+@import "modules/additional.scss";
+@import "modules/footer.scss";
+
+body {
+    --color-white: #ffffff;
+    --color-black: #000;
+    --color-dark: #123549;
+    --color-orange: #FF9700;
+    --color-purple: #7050e5;
+    --color-grey: #878787;
+    &.lock {
+        overflow: hidden;
+    }
+}
+
+
+

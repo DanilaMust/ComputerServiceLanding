@@ -1,0 +1,160 @@
+//Контент
+.cooperation {
+    &__container {
+        padding-top: 70px;
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    &__title {
+        padding-bottom: 120px;
+        font-family: Play;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 30px;
+    }
+    &__content {
+        @media (max-width:964px) {
+            justify-content: center;
+        }
+        @media (max-width:768px) {
+            display: none;
+        }
+        padding-left: 30px;
+        padding-top: 44px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+}
+.left-cooperation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    @media (max-width:768px) {
+        gap: 0px;
+    }
+    &__column {
+        max-width: 270px;
+        margin-top: auto;
+    }
+    &__company {
+        font-family: Play;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 68px;
+    }
+    &__description {
+        font-family: Play;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 45px;
+    }
+
+    &__link {
+        font-family: Play;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FF7500;
+        text-transform: uppercase;
+    }
+}
+.right-cooperation {
+    display: flex;
+    justify-content: center;
+    @media (max-width: 500px) {
+    flex-direction: column;
+    }
+    .column {
+        display: grid;
+        justify-items: center;
+        row-gap: 70px;
+    }
+}
+
+
+//Контент при маленьком разрешении
+.smallScreen-content {
+    display: none;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    @media (max-width:768px) {
+        display: block;
+        padding-top: 44px;
+    }
+
+    &__left {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+.left-smallScreen {
+    .column-one {
+        display: grid;
+        justify-items: center;
+    }
+    .column-two {
+        display: grid;
+        justify-items: center;
+    }
+}
+.right-cooperation {
+    flex-direction: row;
+    &__first-column {
+        display: grid;
+        justify-items: center;
+    }
+    &__second-column {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+
+//Слайдер
+.slider {
+    position: relative;
+    max-width: 270px;
+    overflow: hidden;
+    &__line {
+        display: flex;
+        transition: all 1s;
+    }
+    &__wrapper {
+        position: absolute;
+        display: flex;
+        column-gap: 5px;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__dot {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #524336;
+        &:hover{
+            background-color: #e90e0e;
+        }
+        &.active {
+            background-color: #BB8C5F;
+        }
+    }
+}
+
+
+
+

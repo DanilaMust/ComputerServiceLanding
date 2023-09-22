@@ -1,0 +1,144 @@
+.home {
+    position: relative;
+    width: 100%;
+    &__container {
+        z-index: 5;
+        padding: 90px 30px 0px 30px;
+        margin: 0 auto;
+        max-width: 1180px;
+        display: flex;
+        @media (max-width: 1300px) {
+            justify-content: center;
+            background:none;
+        }
+    }
+}
+.background-home {
+    position: absolute;
+    right: 0;
+    @media (max-width: 1300px) {
+        display: none;
+    }
+    &__img {
+        height: 100%;
+    }
+}
+.text-home {
+    @media (max-width: 1300px) {
+        display: grid;
+        justify-items: center;
+    }
+    &__title {
+        @media (max-width: 1300px) {
+            max-width: 460px;
+        }
+    }
+    &__designation {
+        max-width: 847px;
+        padding-bottom: 110px;
+        font-family: Play;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        line-height: 74px;
+        @media (max-width: 670px) {
+            max-width: 340px;
+            font-size: 46px;
+            padding-bottom: 30px;
+        }
+    }
+}
+.subtitle-home {
+    @media (max-width: 1300px) {
+        max-width: 460px;
+    }
+    &__tel {
+        font-family: Play;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        @media (max-width: 670px) {
+            max-width: 340px;
+            font-size: 30px;
+        }
+    }
+    &__description {
+        font-family: Play;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        @media (max-width: 670px) {
+            font-size: 15px;
+        }
+    }
+}
+.bottom-home {
+    display: flex;
+    justify-content: space-between;
+    max-width: 840px;
+    &__inscription {
+        @media (max-width: 1300px) {
+            display: grid;
+            justify-items: center;
+        }
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 124px;
+        font-family: Play;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--color-white);
+        text-transform: uppercase;
+        width: 280px;
+        height: 50px;
+        border-radius: 5px;
+        background: var(--color-orange);
+        @media (max-width: 670px) {
+            margin-top: 30px;
+        }
+    }
+    &__description {
+        padding-top: 75px;
+        font-family: Play;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: justified;
+        max-width: 581px;
+        max-height: 111px;
+        @media (max-width: 670px) {
+            max-width: 340px;
+            padding-top: 30px;
+        }
+    }
+    &__image {
+        z-index: 2;
+        @media (max-width: 1300px) {
+            display:none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

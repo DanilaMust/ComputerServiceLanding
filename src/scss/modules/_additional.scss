@@ -1,0 +1,47 @@
+.additional {
+    &__container {
+        padding-top: 90px;
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-family: Play;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 50px;
+    }
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        grid-gap: 32px;
+        grid-auto-flow: dense;
+        padding: 0px 30px;
+    }
+}
+.column-additional {
+    &__title {
+        font-family: Play;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 12px;
+    }
+    &__list {
+        li{
+            p{
+                font-family: Play;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+}

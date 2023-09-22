@@ -1,0 +1,23 @@
+.authentication__container .authentication__swiper .authentication__dots {
+    position:absolute;
+    // bottom: 50px;
+    top:80px;
+    right: 50px;
+    // left: 50px;
+    gap: 12px;
+    height: 84px;
+    justify-items: center;
+    justify-content: end;
+    @media (max-width: 1300px) {
+        position: initial;
+        justify-content: center;
+    }
+}
+.swiper-horizontal .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: var(--color-orange);
+    border: 3px solid;
+    border-color: white;
+}
+

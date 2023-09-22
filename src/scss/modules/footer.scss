@@ -1,0 +1,48 @@
+.footer {
+    margin-top: 55px;
+    background-color: var(--color-dark);
+    &__container {
+        padding: 100px 30px 100px 30px;
+        max-width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width:900px) {
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
+.info-footer {
+    &__city, &__foundation{
+        font-family: Play;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        color: var(--color-white);
+    }
+    &__city {
+        padding-bottom: 12px;
+    }
+}
+.contacts-footer {
+    
+    &__outsourcing {
+        padding-bottom: 28px;
+    }
+    &__title, &__description {
+        font-family: Play;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-white);
+    }
+    &__title {
+        padding-bottom: 12px;
+    }
+}
+
+
+
